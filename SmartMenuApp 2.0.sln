@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartMenuApp 2.0", "SmartMenuApp 2.0\SmartMenuApp 2.0.csproj", "{191BAE9B-7EB5-49AF-80B6-C417DF5B4620}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding", "Binding\Binding.csproj", "{507748D8-6A80-4CE0-96DB-621717A5F3E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{191BAE9B-7EB5-49AF-80B6-C417DF5B4620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{191BAE9B-7EB5-49AF-80B6-C417DF5B4620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{191BAE9B-7EB5-49AF-80B6-C417DF5B4620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{507748D8-6A80-4CE0-96DB-621717A5F3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{507748D8-6A80-4CE0-96DB-621717A5F3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{507748D8-6A80-4CE0-96DB-621717A5F3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{507748D8-6A80-4CE0-96DB-621717A5F3E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
