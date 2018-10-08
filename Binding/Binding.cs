@@ -4,28 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FunctionLibrary
+namespace Bindings
 {
-    public class Functions
+    public class Binding
     {
-        public static string DoThis()
+        public void callID(string v)
         {
-            return "Result from DoThis";
-        }
-        public static string DoThat()
-        {
-            return "Result from DoThat";
-        }
-        public static string DoSomething(string something)
-        {
-            if (string.IsNullOrEmpty(something))
-                throw new Exception("You need to specify something!");
-
-            return "Result from doing: " + something;
-        }
-        public static int GetTheAnswerToLifeTheUniverseAndEverything()
-        {
-            return 42;
+            // Checker hvilken metoder der skal kaldes
+            if (v == "DoThis")
+            {
+                //Console.WriteLine(Functions.DoThis());
+            }
+            else if (v == "DoThat")
+            {
+                //Console.WriteLine(Functions.DoThat());
+            }
+            else if (v == "DoSomething")
+            {
+                Console.Write("Enter: ");
+                string line = Console.ReadLine();
+                //Console.WriteLine(Functions.DoSomething(line));
+            }
+            else if (v == "GetTheAnswerToLifeTheUniverseAndEverything")
+            {
+                //Console.WriteLine(Functions.GetTheAnswerToLifeTheUniverseAndEverything());
+            }
         }
     }
 }
