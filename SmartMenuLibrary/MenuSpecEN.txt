@@ -1,0 +1,11 @@
+﻿Calculator Menu 
+(Enter menu item 1 to 9, or 0 to exit)
+Add;Add
+Subtract;Subtract
+Multiply;Multiply
+Divide;Divide
+Sum;Sum
+Minimum;Minimum
+Maximum;Maximum
+Average;Average
+Expression;Expression

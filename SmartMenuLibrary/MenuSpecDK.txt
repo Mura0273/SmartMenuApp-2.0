@@ -1,6 +1,11 @@
-﻿Min fantastiske menu
-(Tryk menupunkt eller 0 for at afslutte)
-Gør dette;DoThis
-Gør hint;DoThat
-Gør noget;DoSomething
-Få svaret på livet, universet og alting;GetTheAnswerToLifeTheUniverseAndEverything
+﻿Lommeregne Menu 
+(Indtast menu ID 1 til 9, eller 0 for at afslutte)
+Plus;Add
+Minus;Subtract
+Gange;Multiply
+Dividere;Divide
+Sum;Sum
+Minimum;Minimum
+Maximum;Maximum
+Gennemsnit;Average
+Expression;Expression

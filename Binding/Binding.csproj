@@ -44,5 +44,11 @@
     <Compile Include="Binding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CalculatorLibrary\CalculatorLibrary.csproj">
+      <Project>{350A6EE6-C011-432D-8529-3611B38760C8}</Project>
+      <Name>CalculatorLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

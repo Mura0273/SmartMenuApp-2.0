@@ -70,6 +70,21 @@ namespace SmartMenuLibrary
                     case 4:
                         binding.callID(menuPoints[3]);
                         break;
+                    case 5:
+                        binding.callID(menuPoints[4]);
+                        break;
+                    case 6:
+                        binding.callID(menuPoints[5]);
+                        break;
+                    case 7:
+                        binding.callID(menuPoints[6]);
+                        break;
+                    case 8:
+                        binding.callID(menuPoints[7]);
+                        break;
+                    case 9:
+                        binding.callID(menuPoints[8]);
+                        break;
                     default:
                         Console.WriteLine("Input var ikke et menupunkt.");
                         break;
@@ -81,17 +96,19 @@ namespace SmartMenuLibrary
 
         public string ChooseLanguage(int language)
         {
-            // Checker om der bliver valgt dansk eller engelsk
-            if (language == 1)
+            // Txt filerne skal hedde "MenuSpec" efterfulgt af hvilket sprog. Derefter tilføjes sproget til vores array
+            string[] allLanguage = new string[] { "DK", "EN" }; // Array med hvilke sprog der er txt på. 
+            string path = null;
+            if(language <= allLanguage.Length) // Checker om vores language id er indenfor allLanguage længe
             {
-                return "MenuSpecDK.txt";
+                path = "MenuSpec" + allLanguage[language - 1] + ".txt"; // Sætter sproget ind som path
             }
-            else if (language == 2)
+            else
             {
-                return "MenuSpecENG.txt";
+                path = "Fejl"; // Hvis der ikke vælges dansk eller engelsk bliver der sendt en fejl
             }
 
-            return "Fejl"; // Hvis der ikke vælges dansk eller engelsk bliver der sendt en fejl
+            return path; 
         }
     }
 
